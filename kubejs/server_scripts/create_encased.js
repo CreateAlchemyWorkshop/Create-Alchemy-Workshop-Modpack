@@ -29,6 +29,50 @@ ServerEvents.recipes(event => {
     addCogwheelRecipes('crimson')
     addCogwheelRecipes('warped')
 
+    // Deleted all existing gearbox recipes to replace them with variants.
+    event.remove({ id: "create:crafting/kinetics/gearbox" })
+    event.remove({ id: "create:crafting/kinetics/vertical_gearbox" })
+    event.remove({ id: "createcasing:crafting/gearbox/brass" })
+    event.remove({ id: "createcasing:crafting/gearbox/copper" })
+    event.remove({ id: "createcasing:crafting/gearbox/railway" })
+    event.remove({ id: "createcasing:crafting/gearbox/creative" })
+    event.remove({ id: "createcasing:crafting/gearbox/industrial_iron" })
+    event.remove({ id: "createcasing:crafting/gearbox/weathered_iron" })
+    event.remove({ id: "createcasing:crafting/gearbox/refined_radiance" })
+    event.remove({ id: "createcasing:crafting/gearbox/shadow_steel" })
+    event.remove({ id: "createcasing:crafting/configurable_gearbox/andesite" })
+    event.remove({ id: "createcasing:crafting/configurable_gearbox/brass" })
+    event.remove({ id: "createcasing:crafting/configurable_gearbox/copper" })
+    event.remove({ id: "createcasing:crafting/configurable_gearbox/railway" })
+    event.remove({ id: "createcasing:crafting/configurable_gearbox/creative" })
+    event.remove({ id: "createcasing:crafting/configurable_gearbox/industrial_iron" })
+    event.remove({ id: "createcasing:crafting/configurable_gearbox/weathered_iron" })
+    event.remove({ id: "createcasing:crafting/configurable_gearbox/refined_radiance" })
+    event.remove({ id: "createcasing:crafting/configurable_gearbox/shadow_steel" })
+
+    addCustomGearboxRecipe('create:gearbox', 'create:andesite_casing')
+    addCustomVerticalGearboxRecipe('create:vertical_gearbox', 'create:andesite_casing')
+    addCustomConfigurableGearboxRecipe('createcasing:andesite_configurable_gearbox', 'create:andesite_casing')
+
+    addGearboxRecipe('brass')
+    addGearboxRecipe('copper')
+    addGearboxRecipe('railway')
+
+    addCustomGearboxRecipe('createcasing:creative_gearbox', 'createcasing:creative_casing')
+    addCustomVerticalGearboxRecipe('createcasing:vertical_creative_gearbox', 'createcasing:creative_casing')
+    addCustomConfigurableGearboxRecipe('createcasing:creative_configurable_gearbox', 'createcasing:creative_casing')
+
+    addCustomGearboxRecipe('createcasing:industrial_iron_gearbox', 'create:industrial_iron_block')
+    addCustomVerticalGearboxRecipe('createcasing:vertical_industrial_iron_gearbox', 'create:industrial_iron_block')
+    addCustomConfigurableGearboxRecipe('createcasing:industrial_iron_configurable_gearbox', 'create:industrial_iron_block')
+
+    addCustomGearboxRecipe('createcasing:weathered_iron_gearbox', 'create:weathered_iron_block')
+    addCustomVerticalGearboxRecipe('createcasing:vertical_weathered_iron_gearbox', 'create:weathered_iron_block')
+    addCustomConfigurableGearboxRecipe('createcasing:weathered_iron_configurable_gearbox', 'create:weathered_iron_block')
+
+    addGearboxRecipe('refined_radiance')
+    addGearboxRecipe('shadow_steel')
+
     /* -------------------------------------------------------------------------- */
 
     function addCogwheelRecipes(variant) {
@@ -48,6 +92,97 @@ ServerEvents.recipes(event => {
         event.shapeless(large_cogwheel, ['create:shaft', planks, planks])
         event.shapeless(large_cogwheel, [cogwheel, planks])
         create.deploying(large_cogwheel, [cogwheel, planks])
+    }
+
+    function addGearboxRecipe(variant) {
+        var gearbox = 'createcasing:' + variant + '_gearbox'
+        var vertical_gearbox = 'createcasing:vertical_' + variant + '_gearbox'
+        var configurable_gearbox = 'createcasing:' + variant + '_configurable_gearbox'
+        var casing = 'create:' + variant + '_casing'
+
+        event.shaped(
+            gearbox, 
+            [
+                ' G ',
+                'GCG',
+                ' G '
+            ],
+            {
+                    'G': '#kubejs:cogwheel',
+                    'C': casing
+            }
+        )
+
+        event.shaped(
+            vertical_gearbox,
+            [
+                'G G',
+                ' C ',
+                'G G'
+            ],
+            {
+                'G': '#kubejs:cogwheel',
+                'C': casing
+            }
+        )
+
+        event.shaped(
+            configurable_gearbox,
+            [
+                ' G ',
+                'GCG',
+                ' G '
+            ],
+            {
+                'G': '#kubejs:large_cogwheel',
+                'C': casing
+            }
+        )
+    }
+
+    function addCustomGearboxRecipe(gearboxItem, casingItem) {
+        event.shaped(
+            gearboxItem, 
+            [
+                ' G ',
+                'GCG',
+                ' G '
+            ],
+            {
+                    'G': '#kubejs:cogwheel',
+                    'C': casingItem
+            }
+        )
+    }
+
+    function addCustomVerticalGearboxRecipe(gearboxItem, casingItem) {
+        event.shaped(
+            gearboxItem,
+            [
+                'G G',
+                ' C ',
+                'G G'
+            ],
+            {
+                'G': '#kubejs:cogwheel',
+                'C': casingItem
+            }
+        )
+    }
+
+    function addCustomConfigurableGearboxRecipe(gearboxItem, casingItem) {
+        event.shaped(
+            gearboxItem,
+            [
+                ' G ',
+                'GCG',
+                ' G '
+            ],
+            {
+                'G': '#kubejs:large_cogwheel',
+                'C': casingItem
+            }
+        )
     }
 
 })
