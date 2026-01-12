@@ -9,6 +9,35 @@ file = "config/create-server.toml"
 hash = "215381c709286418e3e2a165fde2cabbb135f353c1fa5dbc6b82f3afef89ff40"
 
 [[files]]
+file = "kubejs/assets/createcasing/lang/en_us.json"
+hash = "e30b21b2098274f7c65ccae5a00b88e92141b7ffaef22ef530ca8e0359f730e7"
+
+[[files]]
+file = "kubejs/assets/createcasing/lang/zh_cn.json"
+hash = "cc2d4c34d3658a848fb5760ceb973d0f3a592b97d752bd26584a3805206d3139"
+
+[[files]]
+file = "kubejs/client_scripts/jei.js"
+hash = "b23499394575c0c3dbe5d8f61fd6364c5600114718f8f1f62d8ab77c99ae6800"
+
+[[files]]
+file = "kubejs/server_scripts/create.js"
+hash = "7e1ed57661101965e92143eb0909aba525f26e966fd9bdd1fd1e2c3bf9f7b68d"
+
+[[files]]
+file = "kubejs/server_scripts/create_copycats.js"
+hash = "c631f7b0eac955a9795536230042ca7f5625dc989b0f6649a6b2904517b7f0b1"
+
+[[files]]
+file = "kubejs/server_scripts/create_encased.js"
+hash = "ede3879ca8612e0c8be9a22a411bc372404b7f349ead80b5138db787685213a3"
+
+[[files]]
+file = "mods/amendments.pw.toml"
+hash = "881368620d7892dbd6b2f29f3061df2316ef2d72a5e165cd151eace675f5d5e6"
+metafile = true
+
+[[files]]
 file = "mods/catalogue.pw.toml"
 hash = "98db626859ef290e5f7be9084d9f8a4b93ef441a8762ff08cebcf36308b36225"
 metafile = true
@@ -56,6 +85,11 @@ metafile = true
 [[files]]
 file = "mods/create-power-loader.pw.toml"
 hash = "f1e8b22f412b06eee32c2555922ba188dad9cae76d13dad46fa9080b2e763a5f"
+metafile = true
+
+[[files]]
+file = "mods/create-prismatic-shine.pw.toml"
+hash = "9aeb086806fcd75365957c2d169642b83a8c44050f43cf8750e2970c084b1ea5"
 metafile = true
 
 [[files]]
