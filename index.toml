@@ -1,0 +1,21 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/catalogue.pw.toml"
+hash = "98db626859ef290e5f7be9084d9f8a4b93ef441a8762ff08cebcf36308b36225"
+metafile = true
+
+[[files]]
+file = "mods/configured.pw.toml"
+hash = "af4dc4828902eae1784568632a749fe9a442943f1570ac0ba3ea75e79934be41"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "a930b919e6edc62681559da1ebfcdf4873568ad58a0f5d9f73da0093e92ade7b"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "d068154533d9a999acbb4008f7c33d307b583d2e6db7122a69fc02921ffdb411"
+metafile = true
