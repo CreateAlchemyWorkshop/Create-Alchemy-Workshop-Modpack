@@ -1,4 +1,4 @@
-name = "Example Modpack"
+name = "Create Alchemy Workshop"
 author = "Team Atelier"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "999fab3235f829024495f855b965cf9961df2dac41310b014a5b96f5c5f79113"
+hash = "0009c936a07d9567a068a3ed7a46cb194a14b26d6d754a54f64db5bf8477664c"
 
 [versions]
 minecraft = "1.21.1"

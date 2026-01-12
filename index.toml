@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/ModernUI/client.toml"
+hash = "aa782827052edd9975d3d291e6620c5b60b1b317165fd9cfd0a7e1bfc0a7d185"
+
+[[files]]
+file = "config/create-server.toml"
+hash = "215381c709286418e3e2a165fde2cabbb135f353c1fa5dbc6b82f3afef89ff40"
+
+[[files]]
 file = "mods/catalogue.pw.toml"
 hash = "98db626859ef290e5f7be9084d9f8a4b93ef441a8762ff08cebcf36308b36225"
 metafile = true
@@ -11,6 +19,61 @@ hash = "af4dc4828902eae1784568632a749fe9a442943f1570ac0ba3ea75e79934be41"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "e3d0e6da51df08d87c9b88fd6b4011de711d95497263b9ecfd1466cbd34b98d5"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "64f8e839da919268f5ecdf1df17f466c08befa6048f8b2cadf8897b126fb0976"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "978e8a9b6c30d3621523ae40550adbec25cb60b9a16cefbc8785f4039801a789"
+metafile = true
+
+[[files]]
+file = "mods/create-encased.pw.toml"
+hash = "bbdc400ecf704c24c4291a2eea9dcb95330bb9f34802237cc8238a2396974aca"
+metafile = true
+
+[[files]]
+file = "mods/create-fluid.pw.toml"
+hash = "2ae06f1032e9b78ca8cb5dca9a1c06a06bfc2be38fd88f2cffa05e24da1c6f2c"
+metafile = true
+
+[[files]]
+file = "mods/create-framed.pw.toml"
+hash = "f90e89a995f26fe4cdebac8926ef3a2d6695b5d8e2effe0fa8c8d85378b6551a"
+metafile = true
+
+[[files]]
+file = "mods/create-misc-and-things.pw.toml"
+hash = "4e3f30f99de4e85f1e181d40b3129e78b7920a8ce34fd526c5a3e4ded1b3c508"
+metafile = true
+
+[[files]]
+file = "mods/create-power-loader.pw.toml"
+hash = "f1e8b22f412b06eee32c2555922ba188dad9cae76d13dad46fa9080b2e763a5f"
+metafile = true
+
+[[files]]
+file = "mods/create-vintage-unofficial-port.pw.toml"
+hash = "c02581068fd03f2db78841a249872ff9b834974d454a4139c6cac183c4b87a87"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "779974fc6c7b273a38bd93a26c21c2b8f5e06384516ad8ba29b6bf5fe18514cd"
+metafile = true
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "90bf9f547b4c3c76873d51f13c355f769e5043691f56d3a8744bad10ab0fd70c"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "a930b919e6edc62681559da1ebfcdf4873568ad58a0f5d9f73da0093e92ade7b"
 metafile = true
@@ -18,4 +81,69 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "d068154533d9a999acbb4008f7c33d307b583d2e6db7122a69fc02921ffdb411"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "21a5deb5da882d9f3eb4eaf7f0cf77f52737e1e6b44d2f691bf10fda9c86d790"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "395ed890024bdb90e7c0fed1edf8b3905a367942ded954fca92384c76a7e5601"
+metafile = true
+
+[[files]]
+file = "mods/modern-ui.pw.toml"
+hash = "9d9c5b71ead6e789e9935fb04e209cfd583754483ee391edc417d6795722efbd"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "75ff68dd0bfb30f2ff97f170ffbb74d5b6aaa791416c4a0559d09ac8778561ba"
+metafile = true
+
+[[files]]
+file = "mods/selene.pw.toml"
+hash = "6614ee56bd8eeae972736f605434c394f929a6874c16d9254e83dcd627a1a6b3"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "8d5628a4af0f355519b17bb0c6e5783c30aa78f6aa04b77b3892cd5d7c10af03"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks-create-integration.pw.toml"
+hash = "c966ea02eb59f31dcaeaebe9d96c9b232a2fb16d2fe971729350e567a4ff1bd7"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "ec485dec0a45ec2b1865487f4f704a9c3eb05be54e67db1309a27d4f4fbe839c"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "9a51a08d9f91b14ac0fd2039df616ae82dbd92dcb518347e8a5d2ab8ed5e2390"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-create-integration.pw.toml"
+hash = "a2bb36d782a9babcf72faa8e3ccd5bb9a6e252eedab8bea698b1af34fa2fe552"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-in-motion.pw.toml"
+hash = "35372bc783f4497f347721f6c46a8139a9d8767f3adb9d9a062adcc2c1edd87e"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "39e6585d9379cd7c88f1d3c910774d001445387c9a3a6275ce1541d6364d6ff0"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "cb5462d8e36deef91ba8c53e58e04b4bba8abd0e67a4bb8e38b3c27b72aa687d"
 metafile = true
