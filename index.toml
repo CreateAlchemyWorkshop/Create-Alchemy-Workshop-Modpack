@@ -9,14 +9,6 @@ file = "config/create-server.toml"
 hash = "215381c709286418e3e2a165fde2cabbb135f353c1fa5dbc6b82f3afef89ff40"
 
 [[files]]
-file = "kubejs/assets/createcasing/lang/en_us.json"
-hash = "e30b21b2098274f7c65ccae5a00b88e92141b7ffaef22ef530ca8e0359f730e7"
-
-[[files]]
-file = "kubejs/assets/createcasing/lang/zh_cn.json"
-hash = "cc2d4c34d3658a848fb5760ceb973d0f3a592b97d752bd26584a3805206d3139"
-
-[[files]]
 file = "kubejs/client_scripts/jei.js"
 hash = "b23499394575c0c3dbe5d8f61fd6364c5600114718f8f1f62d8ab77c99ae6800"
 
@@ -30,7 +22,7 @@ hash = "c631f7b0eac955a9795536230042ca7f5625dc989b0f6649a6b2904517b7f0b1"
 
 [[files]]
 file = "kubejs/server_scripts/create_encased.js"
-hash = "ede3879ca8612e0c8be9a22a411bc372404b7f349ead80b5138db787685213a3"
+hash = "c784b32b52f675520932a6ff9f247eac8758148d03ba093b3a68f931bf49ae0c"
 
 [[files]]
 file = "mods/amendments.pw.toml"
@@ -64,7 +56,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "bbdc400ecf704c24c4291a2eea9dcb95330bb9f34802237cc8238a2396974aca"
+hash = "822b81fa6ccc0102ea00e22f8b6df1e6180bc39405399d50b481198419909bad"
 metafile = true
 
 [[files]]
